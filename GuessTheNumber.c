@@ -20,6 +20,8 @@ int main() {
             printf("Guessed lower number\n");
         } else if (guessed < randomNumber){
             printf("Guessed higher number\n");
+        } else {
+            printf("Congrats!!");
         }
 
         noOfGuesses++;
